@@ -1,0 +1,408 @@
+/* Mobile/Default Styles */
+
+header h1{
+	background-color: #7C3030;
+	background-image: url("blackmesa1930.png");
+	background-position: bottom;
+	background-repeat: no-repeat;
+	border: 2px solid black;
+	
+	font-size: 50px;
+	height: 200px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.gridlocked2 {
+  display: grid;
+  grid-template-columns: auto;
+  grid-template-rows:auto auto auto auto;
+  gap: 3px 3px;
+  background-color: #E6E6FA;
+	text-align: center;
+	text-decoration: none;
+min-width: 275px;}
+
+.row1 {
+	grid-area: 1; 
+text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+text-decoration: none;
+
+}
+
+.row2 {
+	grid-area: 2; 
+text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+text-decoration: none;
+
+}
+
+.row3 {
+	grid-area: 3; 
+text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+text-decoration: none;
+
+}
+
+.row4 {
+	grid-area: 4; 
+text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+text-decoration: none;
+
+}
+
+li{
+list-style-type : none;
+text-align: justify;
+justify-content: center;
+	align-items: center;
+}
+
+header h1 a:link{
+	font-family: serif;
+	color: gray;
+	text-decoration: none;
+	text-shadow: 2px 2px black;
+	transition: opacity 2s ease-in-out;
+	opacity: 1;
+}
+
+header h1 a:visited{
+		font-family: serif;
+	color: gray;
+	text-decoration: none;
+	text-shadow: 2px 2px black;
+	transition: opacity 2s ease-in-out;
+	opacity: 1;
+	}
+
+header h1 a:hover{
+		font-family: serif;
+	color: gray;
+	text-decoration: none;
+	transition: opacity 2s ease-in-out;
+	opacity: 0;
+	text-shadow: 2px 2px black;
+	}
+
+ a:link{
+	color: #7C3030;
+	font-family: sans-serif;
+	text-decoration: none;
+	
+	}
+
+ a:visited{
+	color: navy;
+	}
+
+ a:hover{
+	color: #333333;
+	}
+
+.stubborn{
+	padding-top: 0.5em;
+	padding-bottom: 1em;
+	transform: scaleX(-1);
+}
+
+main{
+	background-color: #E6E6FA;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	display: block;
+	overflow: auto;
+	
+}
+
+ .links a {
+	
+}
+
+
+footer{
+	background-image: url("DSC0163.jpg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+	height: 100px;
+	color: #eee0b1;
+	text-shadow: 1px 1px 10px black;
+	text-decoration: none;
+	font-size: 125%;
+	font-style: italic;
+	padding: 1em;
+	border: 2px solid black;
+}
+
+footer a:link{
+		color: #eee0b1;
+	text-shadow: 1px 1px 10px black;
+	text-decoration: none;
+	transition: opacity 2s ease-in-out;
+	opacity: 1;
+	font-style: normal;
+	font-family: serif;
+}
+
+footer a:visited{
+	color: #eee0b1;
+	text-shadow: 1px 1px 10px black;
+	text-decoration: none;
+	transition: opacity 2s ease-in-out;
+	opacity: 1;
+	font-style: normal;
+	
+	}
+
+footer a:hover{
+	color: #eee0b1;
+	text-shadow: 1px 1px 10px black;
+	text-decoration: none;
+	transition: opacity 2s ease-in-out;
+	opacity: 0;
+	font-family: serif;
+	font-style: normal;
+	}
+	
+body{
+	background-color:#E6E6FA;
+	font-family: serif;
+}
+
+.container {
+	padding: 1em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 78%;
+	
+}
+
+@media (min-width: 600px) {
+	/* Grid created with grid.layoutit.com, copyright Leniolabs 2020. They are a LIFE SAVER*/ 
+
+.gridlocked {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-rows:auto auto auto auto auto auto auto;
+  gap: 3px 3px;
+  background-color: #E6E6FA;
+	text-align: center;
+	text-decoration: none;
+	min-width: 275px;
+	
+}
+
+/* A massive grid and assortment of classes to properly sort the assignment links. Once again, created  with grid.layoutit.com, copyright Leniolabs 2020. */
+
+.Assignment-Folders { grid-area: 2 / 1 / 3 / 2; 
+text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+text-decoration: none;
+
+
+}
+
+.Pacific-Trails-Studies { grid-area: 2 / 2 / 3 / 3; text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+ 
+}
+
+.All-Assignments { grid-area: 1 / 1 / 2 / 4; text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Other-Assignments { grid-area: 2 / 3 / 3 / 4; text-align: center;
+border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Assignment-1 { grid-area: 3 / 1 / 4 / 2;border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+justify-items: center;
+}
+
+.Assignment-2 { grid-area: 4 / 1 / 5 / 2; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Assignment-3 { grid-area: 5 / 1 / 6 / 2; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+text-decoration: none;
+}
+
+.Assignment-4 { grid-area: 6 / 1 / 7 / 2; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Assignment-5 { grid-area: 7 / 1 / 8 / 2; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+  
+}
+
+.Trails-24 { grid-area: 3 / 2 / 4 / 3; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Trails-56 { grid-area: 4 / 2 / 5 / 3; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+}
+
+.Trails-78 { grid-area: 5 / 2 / 6 / 3; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Trails-9-10 { grid-area: 6 / 2 / 7 / 3; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Trails-11 { grid-area: 7 / 2 / 8 / 3; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Trillium-Media { grid-area: 3 / 3 / 4 / 4; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Joe-Jaguar-Planning { grid-area: 4 / 3 / 5 / 4; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+}
+
+.Jaguar-Draft-1 { grid-area: 5 / 3 / 6 / 4; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Jaguar-Draft-2 { grid-area: 6 / 3 / 7 / 4; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+
+}
+
+.Final-Project { grid-area: 7 / 3 / 8 / 4; border-color: black;
+border-width: 2px;
+border-style: solid;
+background-color: white;
+}
+
+footer{
+	background-image: url("DSC0163.jpg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+	height: 150px;
+	color: #eee0b1;
+	text-shadow: 1px 1px 10px black;
+	text-decoration: none;
+	font-size: 125%;
+	font-style: italic;
+	padding: 1em;
+	font-family: serif;
+}
+
+.stubborn{
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+	transform: scaleX(-1);
+}
+
+
+}
+
+@media (min-width: 1024px) {
+	footer{
+	background-image: url("DSC0163.jpg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	transform: scaleX(-1);
+	height: 200px;
+	color: #eee0b1;
+	text-shadow: 1px 1px 10px black;
+	text-decoration: none;
+	font-size: 125%;
+	font-style: italic;
+	padding: 1em;
+	font-family: serif;
+}
+
+.stubborn{
+	padding-top: 2.5em;
+	padding-bottom: 1em;
+	transform: scaleX(-1);
+}
+
+}
+
+
+
+	
+
+

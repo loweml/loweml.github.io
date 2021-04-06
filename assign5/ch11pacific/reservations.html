@@ -1,0 +1,97 @@
+<!-- test--> 
+
+<!-- homework 4 ch 5 index -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<title>Reservations</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="pacific.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+<div id="wrapper">
+<header>
+	<h1>Pacific Trails Resort</h1>
+
+</header>
+
+
+<nav>
+	<div>
+	
+	<ul>
+	<li><a href="index.html">Home</a> </li>
+	<li><a href="yurts.html">Yurts</a> </li>
+	<li><a href="activities.html">Activities</a> </li>
+	<li><a href="Reservations.html">Reservations</a> </li>
+	</ul>
+	</div>
+	
+	
+	
+</nav>
+
+<main>
+
+<h2>Reservations at Pacific Trails</h2>
+
+<h3>Contact Us Today!</h3>
+
+<p>Required fields are marked with an asterisk * </p>
+
+<div id="stub">
+
+<form method="post" action="https://www.webdevbasics.net/scripts/pacific.php">
+
+<label for="myName"> * First Name: </label>
+<input type="text" name="myName" required="required" id="myName">
+
+<label for="myLastName"> * Last Name: </label>
+<input type="text" name="myLastName" required="required" id="myLastName">
+
+<label for="myEmail"> * E-mail: </label>
+<input type="text" name="myEmail" required="required" id="myEmail">
+
+<label for="myPhone"> Phone: </label>
+<input type="tel" name="myPhone" id="myPhone" maxlength="12">
+
+<label for="myDate">Arrival Date:</label>
+<input type="date" name="myDate" id="myDate">
+
+<label for="myNights">Nights:</label>
+<input type="number" name="myNights" id="myNights" min="1" max="14">
+
+<label for="myComments">*Comments:</label>
+<textarea name="myComments" required="required" id="myComments" rows="2" cols="30">
+</textarea>
+
+<input type="submit" value="Submit" onclick="https://www.webdevbasics.net/scripts/pacific.php" >
+
+<!-- Source code from webdevbasics.net/scripts/pacific.php, as required in step 7 --> 
+
+</form>
+
+<div id="contact">
+<span class="resort">Pacific Trails Resort</span><br> 
+12010 Pacific Trails Road <br> 
+Zephyr, CA 95555<br>
+<br>
+888-555-5555<br>
+</div>
+
+</div>
+</main>  
+
+<footer>
+Copyright &copy; 2020 Matthew Lowe
+<br>
+<a href="mailto:mlowe@pacifictrails.com">mlowe@pacifictrails.com</a>
+</footer>
+</div>
+</body>
+</html>

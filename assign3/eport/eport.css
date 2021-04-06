@@ -1,0 +1,95 @@
+/*
+* — Example for CSS syntax
+
+body {background-color: #0000FF; color: #FFFFFF; } —
+
+.resort {
+	color:#1976D2;
+	font-weight: bold;
+	
+<span class="resort">Pacific Trails Resort</span>
+
+*/
+
+.flagItaly {
+	font-style: italic;
+	
+}
+.centered {
+    text-align: center;
+}
+
+.Lowered {
+    text-align: center;
+}
+.fontBoost {
+	font-size: 125%;
+}
+head{
+	background-color: 	#990000;
+}
+.navLinks{
+	text-align:center;
+	color: #FFFFFF;
+}
+
+#spacerText { font-size: 0;
+}
+
+.spacerTextClass{
+	font-size: 0;
+}
+	
+
+header{
+	font-family: serif;
+	background-color: #dc143c; /* crimson*/ 
+	text-align:center;
+}
+
+nav{
+	background-color: 	#990000;
+	color: #FFFFFF;
+}
+
+main{
+	font-family: sans-serif;
+	background-color: #Fad7a0
+}
+
+
+
+
+h1{text-align: center;
+}
+	
+
+
+h2{font-family: sans-serif;
+}
+
+h3{
+	font-family: sans-serif;
+	text-align: center;
+
+}
+
+footer{
+	font-family: serif;
+	background-image: url("c4wt6f.jpg");
+	background-position: 30%, 70%;
+	background-repeat: no-repeat;
+	color: #Fad7a0;
+	
+	font-style: italic;
+	
+}
+
+
+
+
+
+
+
+
+	

@@ -1,0 +1,37 @@
+/*
+* — Example for CSS syntax
+
+body {background-color: #0000FF; color: #FFFFFF; } —
+*/
+
+body {
+	background-color: #FFFFFF; color: #666666;
+	font-family: Verdana, ARial, sans-serif;
+
+}
+
+header { 
+	background-color: #002171; color: #FFFFFF;
+	background-image: url(sunset.jpg);
+	background-repeat: no-repeat;
+	background-position: right;
+	line-height: 400%;
+	text-indent: 1em;
+}
+
+nav {
+	background-color: #BBDEFB;
+}
+
+h1 {
+	margin-bottom:0;
+}
+h2 {
+	color: #1976D2;
+}
+
+dt {
+	color:#002171;
+}
+
+.resort { color:#1976D2;}

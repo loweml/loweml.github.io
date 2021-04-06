@@ -1,0 +1,99 @@
+/*
+* — Example for CSS syntax
+
+body {background-color: #0000FF; color: #FFFFFF; } —
+
+.resort {
+	color:#1976D2;
+	font-weight: bold;
+	
+<span class="resort">Pacific Trails Resort</span>
+
+---
+
+Why does it ask to assign a background color and background image to h1? You can't even see the background color, the image covers it up completely.
+
+*/
+
+
+body{
+	background-color:#E6E6FA;
+	font-family: serif;
+}
+
+h1{
+	background-color: #7C3030;
+	background-image: url("2020-10-11_14.58.10.png");
+	background-position: top;
+	background-repeat: no-repeat;
+	border-bottom: 3px dashed #000033;
+}
+
+#container {
+	padding: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	
+}
+
+ul a:link{
+	color: #7C3030;
+	}
+
+ul a:visited{
+	color: navy;
+	}
+
+ul a:hover{
+	color: #798121;
+	}
+
+.float{
+	float: right;
+}
+
+
+
+
+h3{
+	line-height: 3
+}
+
+footer{
+	background-image: url("Hobbs.jpg");
+	background-position: left center;
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	font-size:75%;
+	font-style: italic;
+}
+
+
+
+main{
+	background-color: #FFFFFF;
+	padding-top: 1px;
+	padding-right: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	display: block;
+	overflow: auto;
+	
+}
+section{
+	float: left;
+	width: 33%;
+	padding-left: 2em;
+	padding-right: 2em;
+	
+}
+
+.links {
+	font-family: sans-serif;
+}
+
+
+
+
+	

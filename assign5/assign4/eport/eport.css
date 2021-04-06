@@ -1,0 +1,212 @@
+/*
+* — Example for CSS syntax
+
+body {background-color: #0000FF; color: #FFFFFF; } —
+
+.resort {
+	color:#1976D2;
+	font-weight: bold;
+	
+<span class="resort">Pacific Trails Resort</span>
+
+
+Source: https://www.w3schools.com/html/tryit.asp?filename=tryhtml_lists_menu THANK YOU W3SCHOOLS FOR THE FIX WITH CENTERING THE NAV BAR
+*/
+a {
+  color: #Fad7a0;
+}
+
+.flagItalyIndent {
+	font-style: italic;
+	padding-left: 1em;
+	
+}
+.centered {
+    text-align: center;
+}
+
+#Lowered {
+    text-align: center;
+	padding-bottom: 0.75em;
+}
+
+}
+head{
+	background-color: 	#990000;
+}
+/*.navLinks{
+	text-align:center;
+	color: #FFFFFF;
+}
+*/
+
+
+.spacerTextClass{
+	font-size: 0;
+}
+#container {
+	
+	
+}
+
+.fontexception{
+	font-family: serif;
+	text-align: center;
+}
+
+.fontexception2{
+	font-family: serif;
+	text-align: center;
+	font-size: 2em;
+	text-shadow: 0 0 3px #000000;
+}
+
+.container {
+    padding: 2em;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+	max-width: 1600px;
+
+	
+	}
+	
+	
+nav ul a:link{
+	color: #Fad7a0;
+	}
+
+nav ul a:visited{
+	color: #6699cc;
+	}
+
+nav ul a:hover{
+	color: #8EAAC0;
+	}
+
+.shadowPeople{
+	text-shadow: 0 0 3px #ffffff;
+	text-align: center;
+	}
+/* Joe J Jaguar has neon type shadow*/
+
+section{
+	display: block;
+	}
+
+header{
+	font-family: serif;
+	background-color: #990000;
+	text-align:center;
+	background-image:url("784944.png");
+	background-position: center,bottom;
+	background-repeat: space;
+	max-height: 90px; 
+	
+	
+	
+	
+	float: center;
+}
+
+nav{
+	background-color: #990000;
+	color: #FFFFFF;
+}
+
+main{
+	font-family: sans-serif;
+	background-image: linear-gradient(180deg, #990000 , #Fad7a0);
+}
+
+main.about{
+	font-family: sans-serif;
+	background-image: linear-gradient(180deg, #990000 5%, #Fad7a0 60%);
+}
+
+li img{
+	height: 70px;
+	}
+	
+nav ul{
+	list-style-type: none;
+	margin: 0.2em;
+	padding: 0.2em;
+	display: inline-block;
+	overflow: hidden;
+}
+
+nav li {
+	float:center;
+	padding-left: 1em;
+	padding-right: 1em;
+	overflow: hidden;
+	
+	}
+	
+.opec {
+	opacity: 0.95;
+	text-align: center;
+	padding: 0em;
+	min-width: 100%
+	
+}
+
+/* The two images on the about page are now technically partially transparent, even if it's barely noticable. */
+
+
+h1 {
+	text-align: center;
+}
+
+	
+h3.annoyingspacer{
+padding-top: 1em;}
+
+h2{font-family: sans-serif;
+}
+
+h3{
+	font-family: sans-serif;
+	text-align: center;
+	font-weight: normal;
+
+}
+
+h3.pads{
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+footer{
+	font-family: serif;
+	background-image: url("c4wt6f.jpg");
+	background-position: 30%, 70%;
+	background-repeat: no-repeat;
+	color: #Fad7a0;
+	
+	font-style: italic;
+	
+}
+
+.twocolumn {
+	column-count: 2;
+	box-sizing: border-box;
+	padding: 1em;
+	
+}
+
+.twocolumn p{
+	padding-left: 2em;
+	padding-right: 2em;
+	box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+	

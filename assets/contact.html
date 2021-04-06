@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<title>National Celeste</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="rigged.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+<div id="wrapper">
+<div id="fb-root"></div> 
+<!-- FACEBOOK PAGE FEED SOURCE: https://developers.facebook.com/docs/plugins/page-plugin
+AUTHOR: FACEBOOK STAFF -->
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0" nonce="ikrNqrp3"></script>
+<script src="validator-standalone.js"></script>
+<!--UNIVERSAL CSS CODE
+
+CONTACT JAVASCRIPT SOURCE: https://www.cssscript.com/concise-form-validator-formvalidatorjs/
+AUTHOR: LUKE PETERS
+UNDER MIT LICENSE-->
+
+
+<header>
+	<div id="spacerText">&nbsp; </div> 
+	<h1 ><a  href="index.html" >National Celeste</a></h1>
+	<h2>The Ultimate Election Trump Card</h2>
+	<div class="spacerTextClass">&nbsp; </div>
+</header>
+
+<nav>
+	<br>
+	<div class="centered">
+	<div class="spacerTextClass">&nbsp; </div>
+	
+	 <a href="index.html">Home Page</a> &nbsp;
+	<a href="about.html">Who Are We?</a> &nbsp;
+	<a href="products.html">Products</a> &nbsp;
+	<div class="banner"> </div>
+	<a href="reviews.html">Reviews</a> &nbsp;
+	<a href="faq.html">Troubleshooting</a> &nbsp;
+	<a href="contact.html">Contact</a> &nbsp;
+
+	</div>
+	
+	<br>
+	<br>
+
+	
+</nav>
+
+<main>
+
+
+    <h1>Contact National Celeste</h1>
+    <p>Have questions about us? Need our services to solve a runoff election in Georgia? Let's get in touch, we'll straighten everything out with our old friends. Forms marked with an asterisk (*) are required.</p>
+    
+    <form name="myForm" autocomplete="off" novalidate>
+
+      <div class="form-input-wrap">
+        <label for="myInput1">Your Name*</label>
+        <input type="text" name="myInput1" id="myInput1" class="input" required />
+      </div>
+      <br>
+      <div class="form-input-wrap">
+        <label for="myInput2">Your Company Name</label>
+        <input type="text" name="myInput2" id="myInput2" class="input" />
+      </div>
+
+      <br>
+
+      <div class="form-input-wrap">
+        <label for="myInput4">Your Email*</label>
+        <input type="email" name="myInput4" id="myInput4" class="input" data-error-text="Please enter a valid email address" required />
+      </div>
+<br>
+<div class="form-input-wrap">
+        <label for="myInput9">Your Phone Number*</label>
+        <input type="email" name="myInput9" id="myInput9" class="input" data-error-text="Please enter a valid email address" required />
+      </div>
+<br>
+  <div class="form-input-wrap">
+        <label for="myInput6">How soon do you need our services? Leave blank if not applicable.</label>
+        <input type="date" name="myInput6" id="myInput6" class="input" data-error-text="Please enter a valid email address" />
+      </div>
+	  <br>
+	    <div class="form-input-wrap">
+        <label for="myInput7">Bank Account Number (If you want to hear back sooner)</label>
+        <input type="number" name="myInput7" id="myInput7" class="input" data-error-text="Digits only. No other symbols allowed" />
+      </div>
+	  <br>
+	  	    <div class="form-input-wrap">
+        <label for="myInput8">Bank Routing Number (If you want to hear back sooner)</label>
+        <input type="number" name="myInput8" id="myInput8" class="input" data-error-text="Digits only. No other symbols allowed" />
+      </div>
+	  <br>
+      <div class="form-input-wrap form-input-wrap--select">
+        <label for="myInput5">Why are you contacting us?*</label>
+        <select name="myInput5" id="myInput5" class="input" data-error-text="Please select an option" required>
+          <option value="">Choose an option</option>
+          <option value="Option 1">Questions about Products</option>
+          <option value="Option 2">Our Policy on Returns and Avoiding Prosecution </option>
+          <option value="Option 3">Donations or Partnership</option>
+          <option value="Option 4">Schedule A Meeting</option>
+          <option value="Option 5">Other (please comment below)</option>
+        </select>
+      </div>
+
+<br>
+	<div class="form-input-wrap">
+			<label for="myInput3">Comments</label>
+			<input type="text" name="myInput3" id="myInput3" class="input" data-error-text="Error text custom to this field"  />
+		  </div>
+		  <br>
+      <div class="centered">
+        <input type="submit" value="Submit" class="button" />
+      </div>
+    
+    </form>
+
+    <script src="../validator-standalone.js"></script>
+    
+    <script>
+
+      const myForm = document.querySelector("form[name=myForm]");
+
+      myForm.addEventListener("submit", function(event) {
+
+        if(validator.checkForm(event.target)) {
+          alert("Continue processing the form!");
+        }
+
+        event.preventDefault();
+      });
+      
+    </script>
+
+ 
+</main>
+  </div>
+<footer>
+<br>
+
+&nbsp; Copyright &copy; 2020 Matthew Lowe
+<br>
+<br>
+
+</footer>
+
+
+
+</body>
+</html>
